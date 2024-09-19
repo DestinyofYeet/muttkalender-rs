@@ -1,0 +1,10 @@
+[package]
+name = "muttkalender-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.17", features = ["derive"] }
+encoding = "0.2.33"
+encoding_rs = "0.8.34"
+encoding_rs_io = "0.1.7"
